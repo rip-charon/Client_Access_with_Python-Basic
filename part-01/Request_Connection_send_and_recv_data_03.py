@@ -5,11 +5,11 @@ import socket
 
 s = socket.socket(socket.AF_INET , socket.SOCK_STREAM) # tcp - connection
 
-s.connect(('192.168.1.15',80))
+s.connect(('192.168.1.115',80))
 
 print("\n[+] connected.")
 
-s.send("GET /index.txt HTTP/1.0\n\n".encode())
+s.send("GET / HTTP/1.1\r\nHost:192.168.1.115\r\n\r\n".encode())
 
 data = s.recv(2048)
 
