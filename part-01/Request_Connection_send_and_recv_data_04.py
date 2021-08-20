@@ -1,3 +1,7 @@
+# CHARON :
+# simple socket program just for scan ip address for checking close or open port.
+
+
 import socket
 
 while True :

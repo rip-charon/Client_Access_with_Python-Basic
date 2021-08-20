@@ -1,3 +1,6 @@
+# CHARON :
+# simple socket program just for connecting to local ip address and read the file in server .
+
 import socket
 
 s = socket.socket(socket.AF_INET , socket.SOCK_STREAM) # tcp - connection

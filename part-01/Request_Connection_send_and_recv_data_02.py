@@ -1,3 +1,7 @@
+# CHARON :
+# simple socket program just for connecting to google.com ip address and print the page in console.
+
+
 import socket
 
 s = socket.socket(socket.AF_INET , socket.SOCK_STREAM) # tcp - connection
