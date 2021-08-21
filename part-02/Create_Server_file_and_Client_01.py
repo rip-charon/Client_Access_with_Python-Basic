@@ -1,5 +1,5 @@
 # CHARON :
-# socket program for creating server on port 2323 and send and recive data from client side.
+# socket program for creating server on port 5050 and send and recive data from client side.
 
 from socket import *
 
@@ -15,7 +15,7 @@ s.bind((ADDR))
 
 s.listen(5)
 
-print("[+] server start running on port 2323 \n")
+print("[+] server start running on port 5050 \n")
 
 client , addr = s.accept()
 

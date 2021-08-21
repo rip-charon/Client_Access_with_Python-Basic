@@ -1,5 +1,5 @@
 # CHARON :
-# socket program for creating client on port 2323 and send and recive data from server side.
+# socket program for creating client on port 5050 and send and recive data from server side.
 
 from socket import *
 
