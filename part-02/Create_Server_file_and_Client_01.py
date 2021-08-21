@@ -5,7 +5,13 @@ from socket import *
 
 s = socket(AF_INET,SOCK_STREAM)
 
-s.bind(("192.168.1.115",2323))
+server = "0.0.0.0"
+
+port = 5050
+
+ADDR = (server,port)
+
+s.bind((ADDR))
 
 s.listen(5)
 
@@ -15,7 +21,7 @@ client , addr = s.accept()
 
 print("connected to %s \n " % str(addr))
 
-client.sendall("hello i am server... ")
+client.sendall("hello i am server... ".encode('utf-8'))
 
 data = client.recv(1024)
 
