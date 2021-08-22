@@ -1,5 +1,5 @@
 # CHARON :
-# socket program for create simple tcp revese shell on port 5050
+# socket program for create simple tcp revese shell on port 5050 for server
 
 from socket import *
 
