@@ -21,6 +21,6 @@ print("[+] connected to %s \n" % str(adrr))
 
 print("[+] recived : %s " % str(c))
 
-s.sendto("hello i am server !", adrr)
+s.sendto("hello i am server !".encode('utf-8'), adrr)
 
 s.close()
