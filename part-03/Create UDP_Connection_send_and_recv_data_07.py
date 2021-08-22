@@ -1,5 +1,5 @@
 # CHARON
-# socket program for scan ip address for checking close or open port.
+# TCP socket program for scan ip address for checking close or open port.
 
 from socket import *
 
