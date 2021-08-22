@@ -26,7 +26,8 @@ print("[+] connected to %s \n" % str(ADDR2))
 while True:
 
     sms = input("[+] you >> ")
-    c.sendall("[+] {name} >> %s".encode('utf-8') % sms)
+    cms = "[+] %s >> %s" % (name,sms)
+    c.sendall(cms.encode('utf-8'))
     print("\n")
     data = c.recv(1024)
     print(data.decode('utf-8'))
