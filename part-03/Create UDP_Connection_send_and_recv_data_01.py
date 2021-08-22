@@ -17,8 +17,8 @@ print("[+] server is running on port 5050 \n")
 
 c , adrr = s.recvfrom(1025)
 
-print("[+] connected to %s \n" % adrr)
+print("[+] connected to %s \n" % str(adrr))
 
-print("[+] recived : %s " % c)
+print("[+] recived : %s " % str(c))
 
 s.close()
