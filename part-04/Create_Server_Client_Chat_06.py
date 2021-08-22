@@ -1,5 +1,5 @@
 # CHARON :
-# socket program for creating client on port 5050 for chatting in udp connection with server
+# socket program for creating client on port 1234 for chatting in udp connection with server
 
 from socket import *
 
@@ -18,7 +18,7 @@ while True:
     print("\n")
     sms = input("[+] you >> ")
     cms = "[+] %s >> %s}" % (name,sms)
-    s.sendto(cms.encode('utf-8'),("192.168.1.123",5050))
+    s.sendto(cms.encode('utf-8'),("192.168.1.123",1234))
     print("\n")
 
 s.close()

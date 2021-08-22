@@ -1,5 +1,5 @@
 # CHARON
-# socket program for creating server on port 5050 for chatting in udp connection with client
+# socket program for creating server on port 1234 for chatting in udp connection with client
 
 from socket import *
 
@@ -7,7 +7,7 @@ s = socket(AF_INET , SOCK_DGRAM)
 
 server = "0.0.0.0"
 
-port = 5050
+port = 1234
 
 ADDR = (server,port)
 
