@@ -19,7 +19,8 @@ while True:
     print(data.decode('utf-8'))
     print("\n")
     sms = input("[+] you >> ")
-    s.send("[+] {name} >> %s".encode('utf-8') % sms)
+    cms = "[+] %s >> %s}" % (name,sms)
+    s.send(cms.encode('utf-8'))
     print("\n")
 
 s.close()
