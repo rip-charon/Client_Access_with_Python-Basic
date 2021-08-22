@@ -15,9 +15,11 @@ s.bind((ADDR))
 
 s.listen(5)
 
+print("server shell running on port 5050\n")
+
 c , ad = s.accept()
 
-print("connected to : %s \n" % ad)
+print("connected to : %s \n" % str(ad))
 
 while True:
 
@@ -27,4 +29,4 @@ while True:
     print(cmd_output)
     print("\n")
 
-s.close()
+c.close()
