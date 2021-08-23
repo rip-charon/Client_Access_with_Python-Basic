@@ -54,17 +54,13 @@
 ```
 ## part-03 :
 
- > Create UDP_Connection_send_and_recv_data_01.py :\n
- > Create UDP_Connection_send_and_recv_data_03.py :\n
- > Create UDP_Connection_send_and_recv_data_05.py :
+ > Create UDP_Connection_send_and_recv_data_[01-03-05].py :
  
 ```
  socket program for creating UDP server for send and recive data
 ```
 
- > Create UDP_Connection_send_and_recv_data_04.py :\n
- > Create UDP_Connection_send_and_recv_data_02.py :\n
- > Create UDP_Connection_send_and_recv_data_06.py :
+ > Create UDP_Connection_send_and_recv_data_[02-04-06].py :
 
 ```
  socket program for creating UDP client for send and recive data
