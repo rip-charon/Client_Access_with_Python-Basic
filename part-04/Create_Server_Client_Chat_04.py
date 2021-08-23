@@ -1,5 +1,5 @@
 # CHARON :
-# socket program for creating client on port 5050 for chatting in tcp connection with server
+# socket program for creating client on port 5050 for chatting in tcp connection with server include chatter name
 
 from socket import *
 
